@@ -18,4 +18,4 @@ zawiera odpowiednio nazwy grup oraz ilości zliczeń.
 
   `wejście:` ala,.A13344
 
-  `wyjście:`UPPER: 1 LOWER: 3 DIGIT: 5 SPECIAL: 5 OWN: 10
+  `wyjście:`UPPER: 1 LOWER: 3 DIGIT: 5 SPECIAL: 2 OWN: 7
