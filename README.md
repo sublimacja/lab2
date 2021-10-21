@@ -15,6 +15,7 @@ zawiera odpowiednio nazwy grup oraz ilości zliczeń.
 
 * **Przykład użycia:**
   http://localhost:8080/api/ppkwu/lab2/string/ala,.A13344
+
   `wejście:` ala,.A13344
 
   `wyjście:`UPPER: 1 LOWER: 3 DIGIT: 5 SPECIAL: 5 OWN: 10
