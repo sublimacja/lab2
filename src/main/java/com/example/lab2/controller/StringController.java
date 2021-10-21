@@ -1,6 +1,5 @@
 package com.example.lab2.controller;
 
-import com.example.lab2.response.StringResponseDto;
 import com.example.lab2.service.StringService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +16,7 @@ public class StringController {
     private final StringService stringService;
 
     @GetMapping("/lab2/string/{string}")
-    public StringResponseDto analyzeString(@PathVariable("string") String string) {
+    public String analyzeString(@PathVariable("string") String string) {
         return stringService.analyzeString(string);
     }
 }
